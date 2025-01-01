@@ -17,6 +17,28 @@
 #--------------------------
 # Always make Spirit gems pop
 
+Show
+Rarity Unique
+BaseType "Heavy Belt" "Crude Bow" "Long Quarterstaff" "Grand Regalia" "Armoured Cap" "Furtive Wraps" "Utility Belt" "Ornate Belt" "Emerald Ring" "Stone Tower" "Flask" "Crucible Tower" "Conqueror Plate" "Fine Bracers" "Gold Amulet"
+SetTextColor 255 255 255
+SetBorderColor 255 255 255
+SetBackgroundColor 200 29 0
+PlayAlertSound 10 300
+PlayEffect Red
+MinimapIcon 2 Red Star
+SetFontSize 45
+
+Show
+Rarity Unique
+Class "Jewel"
+SetTextColor 255 255 255
+SetBorderColor 255 255 255
+SetBackgroundColor 200 29 0
+PlayAlertSound 10 300
+PlayEffect Red
+MinimapIcon 2 Red Star
+SetFontSize 45
+
 Hide
 ItemLevel >= 12
 ItemLevel <= 18
@@ -30,7 +52,6 @@ PlayAlertSound 2 300
 PlayEffect Cyan
 MinimapIcon 1 Cyan Triangle
 SetFontSize 40
-
 
 Hide
     BaseType "Scroll of Wisdom" "Orb of Augmentation" "Orb of Transmutation" "Regal Shard"
@@ -81,17 +102,18 @@ SetBackgroundColor 0 0 0 180
 
 Show
 BaseType "Uncut"
-ItemLevel >= 19
+ItemLevel >= 20
 SetFontSize 45
-SetTextColor 20 240 240
-SetBorderColor 20 240 240
-PlayAlertSound 2 300
-PlayEffect Cyan
-MinimapIcon 1 Cyan Triangle
+SetTextColor 255 0 0 255
+SetBorderColor 255 0 0 255
+SetBackgroundColor 255 255 255 255
+PlayAlertSound 6 300
+PlayEffect Red
+MinimapIcon 0 Red Star
 
 Hide
 BaseType "Uncut "
-ItemLevel <= 18
+ItemLevel <= 19
 
 
 #--------------------------
