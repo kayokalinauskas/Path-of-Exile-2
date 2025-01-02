@@ -18,6 +18,17 @@
 # Always make Spirit gems pop
 
 Show
+Rarity Normal
+BaseType "Stellar Amulet"
+SetTextColor 255 255 255
+SetBorderColor 255 255 255
+SetBackgroundColor 17 0 255
+PlayAlertSound 1 300
+PlayEffect Blue
+MinimapIcon 2 Blue Kite
+SetFontSize 45
+
+Show
 Rarity Unique
 BaseType "Heavy Belt" "Crude Bow" "Long Quarterstaff" "Grand Regalia" "Armoured Cap" "Furtive Wraps" "Utility Belt" "Ornate Belt" "Emerald Ring" "Stone Tower" "Flask" "Crucible Tower" "Conqueror Plate" "Fine Bracers" "Gold Amulet"
 SetTextColor 255 255 255
