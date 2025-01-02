@@ -78,6 +78,10 @@ PlayAlertSound 6 300
 PlayEffect Red
 MinimapIcon 0 Red Star
 
+Hide
+Class "Currency"
+BaseType "Lesser Jeweller's Orb"
+
 #--------------------------
 # Gold
 #--------------------------
